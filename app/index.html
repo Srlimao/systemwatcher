@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Watcher</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="cpuDiv" >
+        <!--webview autosize="on" id="cpu-webview" src="cpu.html" style="min-height:250px" nodeintegration></webview-->
+        <h2 id="cpu-name">CPU NAME</h2>
+        <span id="cpu-name-load">Total load: 0%</span>
+        <div>
+            <div id="cpu-info-left" class="cpuInfo">
+                <ul id="core-load-list">
+                </ul>
+            </div>
+
+            <div id="cpu-info-right">
+                <ul id="core-temp-list">
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script>require('./js/renderer')</script>
+</body>
+</html>

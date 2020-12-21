@@ -1,0 +1,15 @@
+.cpuDiv{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+    border-style: dashed;
+    border-color: cadetblue;
+    text-align: center;
+}
+
+.cpuInfo{
+    width: 50%;
+    align-content: center;
+    display: flex;
+    text-align: left;
+}
